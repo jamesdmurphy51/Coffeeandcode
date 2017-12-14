@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    >
+
+    <ImageView
+        android:id="@+id/imageView4LV2"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/temp_meme1"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/tvListViewName2"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_toRightOf="@+id/imageView4LV2"
+        android:layout_toLeftOf="@+id/lineaer4Btns2"
+        android:layout_alignTop="@id/imageView4LV2"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:ellipsize="end"
+        android:scrollHorizontally="true"
+        android:maxLines="1"/>
+
+    <TextView
+        android:id="@+id/tvListViewDesc2"
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:layout_alignBottom="@+id/imageView4LV2"
+        android:layout_toRightOf="@+id/imageView4LV2"
+        android:layout_toLeftOf="@+id/lineaer4Btns2"
+        android:layout_marginTop="3dp"
+        android:ellipsize="end"
+        android:scrollHorizontally="true"
+        android:maxLines="3"/>
+
+    <LinearLayout
+        android:id="@+id/lineaer4Btns2"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btnMsg"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_message"
+            android:focusableInTouchMode="true"
+            android:layout_gravity="center_vertical"
+        />
+        <ImageButton
+            android:id="@+id/btnMatch"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_cross"
+            android:focusableInTouchMode="true"
+            android:layout_gravity="center_vertical"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

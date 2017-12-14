@@ -1,0 +1,77 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/register_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@color/White"
+        android:elevation="4dp"
+        app:theme="@style/ToolbarColoredBackArrow"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        />
+
+    <EditText
+        android:id="@+id/etUname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter username"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etUname"
+        android:layout_alignStart="@+id/etUname"
+        android:layout_alignRight="@+id/etUname"
+        android:layout_alignEnd="@+id/etUname"
+        android:layout_below="@+id/etUname"
+        android:layout_marginTop='@dimen/activity_vertical_margin'
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Enter email" />
+
+    <EditText
+        android:id="@+id/etPwrd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etEmail"
+        android:layout_alignStart="@+id/etEmail"
+        android:layout_alignRight="@+id/etEmail"
+        android:layout_alignEnd="@+id/etEmail"
+        android:layout_below="@+id/etEmail"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Enter password" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPwrd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Skip to Login Page" />
+
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "2781803561",
+    "firebase_url": "https://coffeeandcode-79f5e.firebaseio.com",
+    "project_id": "coffeeandcode-79f5e",
+    "storage_bucket": "coffeeandcode-79f5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2781803561:android:b805ac2cd3cb0bca",
+        "android_client_info": {
+          "package_name": "com.jamesdavidmurphy.coffeeandcode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2781803561-5oncd0lqgs7u5hp0br63ggm8tn156fau.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jamesdavidmurphy.coffeeandcode",
+            "certificate_hash": "9039b5915d9e0febcc64391374ec60d914ceeed6"
+          }
+        },
+        {
+          "client_id": "2781803561-2n98dgdlb50kuqotmv6vu9r3i0ral6cr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt5tegRbJFM7V6NSKruEIresolEiXBxSA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2781803561-2n98dgdlb50kuqotmv6vu9r3i0ral6cr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
